@@ -1,6 +1,6 @@
 # ETL-project
 
-Team Members:
+### Team Members:
 
 
 •	Anumala Thapa
@@ -10,7 +10,7 @@ Team Members:
 •	Erin Urban
 
 
-Datasets:
+### Datasets:
 
 
 •   film-locations-in-san-francisco-1.csv (https://data.world/sanfrancisco/yitu-d5am)
@@ -19,13 +19,13 @@ Datasets:
 
 
 
-Project Proposal:
+### Project Proposal:
 
 
 •	List of Netflix movies shot in San Francisco
 
 
-Schema:
+### Schema:
 
 
 •	Filter movies, specifically U.S. movies, in Netflix file
