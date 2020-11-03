@@ -1,9 +1,8 @@
 --Create tables for data to be loaded
 CREATE TABLE film_locations(
-	id SERIAL PRIMARY KEY,
-	Title TEXT,
-	Release_Year INT,
-	Locations TEXT
+	"Title" TEXT,
+	"Release Year" INT,
+	"Locations" TEXT
 );
 
 CREATE TABLE netflix(
@@ -13,4 +12,5 @@ CREATE TABLE netflix(
 	country TEXT,
 	release_year TEXT
 );
+
 
