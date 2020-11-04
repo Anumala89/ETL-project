@@ -6,9 +6,8 @@ CREATE TABLE film_locations(
 	"Locations" TEXT
 );
 
-CREATE TABLE netflix(
-	id SERIAL PRIMARY KEY,
-	show_id INT,
+CREATE TABLE netflix( 
+	show_id INT PRIMARY KEY,
 	title TEXT,
 	country TEXT,
 	release_year TEXT
