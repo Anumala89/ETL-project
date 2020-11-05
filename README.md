@@ -27,13 +27,18 @@
 ### Schema:
 
 
-•	Filter movies in Netflix file
+•	Import datasets as csv file
 
-•	Group movies by title in film location file
+•	Create dataframe from csv file
 
 •	Select show_id, title, country, release_year, 
 
 •	Select 	Title, Release Year, Locations
 
-•	Merge both files on title
+•	Connect to database
+
+•	Convert dataframe to database
+
+•	Inner join the data on title
+
 
