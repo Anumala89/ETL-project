@@ -7,7 +7,6 @@
 
 •	Sybile Cherenfant
 
-•	Erin Urban
 
 
 ### Datasets:
@@ -28,7 +27,7 @@
 ### Schema:
 
 
-•	Filter movies, specifically U.S. movies, in Netflix file
+•	Filter movies in Netflix file
 
 •	Group movies by title in film location file
 
