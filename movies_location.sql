@@ -1,9 +1,9 @@
 --Create tables for data to be loaded
 CREATE TABLE film_locations(
 	id SERIAL PRIMARY KEY,
-	"Title" TEXT,
-	"Release Year" INT,
-	"Locations" TEXT
+	title TEXT,
+	release_year INT,
+	locations TEXT
 );
 
 CREATE TABLE netflix( 
@@ -18,7 +18,7 @@ SELECT * FROM film_locations;
 SELECT * FROM netflix;
 
 --create a query
-SELECT n.show_id, n.title, n.country, n.release_year, f."Locations"
+SELECT n.show_id, n.title, n.country, n.release_year, f.locations
 FROM netflix n
 INNER JOIN film_locations f ON
-f."Title" = n.title;
+f.title = n.title;
